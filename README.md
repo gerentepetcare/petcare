@@ -25,9 +25,9 @@ _Logo_
 - Terminar a flecha (Artemis) ✔
 - Colocar outro animal
 
-_Gráficos_
-- Colocar "Amostragem: 200 pessoas"
-- Colocar a porcentagem onde nao tem =)
+_Gráficos_ ✔
+- Colocar "Amostragem: 200 pessoas" ✔
+- Colocar a porcentagem onde nao tem =) ✔
 
 _Documentação_
 - Criar um Termo de Responsabilidade/Aceitação 
