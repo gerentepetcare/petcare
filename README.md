@@ -2,9 +2,8 @@
 /*
 **DIVISÃO DE TAREFAS**
 -> Programação
-  - C# = Pedro | Auxiliar: Ellen
   - Android = Louisy | Auxiliar: We all
-  - ASP = Eduarda | Auxiliar: Ellen
+  - ASP = Eduarda e Pedro | Auxiliar: Ellen
   - BD = Sabrina | Auxiliar: We all
 
 -> Teste
