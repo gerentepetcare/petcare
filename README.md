@@ -22,7 +22,7 @@ _Web_
 - Vai ter botão Salvar, Em Análise e Inapto (deleta direto, sem ter aba)
 
 _Logo_
-- Terminar a flecha 
+- Terminar a flecha (Artemis) ✔
 - Colocar outro animal
 
 _Gráficos_
