@@ -33,6 +33,7 @@ _Documentação_
 - Criar um Termo de Responsabilidade/Aceitação 
 - (Cancelar até 24h antes da hospedagem)
 
+------------------------------------------------------------- 
 **DIVISÃO DE TAREFAS**
 -> Programação
   - Android = Louisy | Auxiliar: We all
