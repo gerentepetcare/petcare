@@ -4,7 +4,7 @@
 _Android_
 - Chamada de Vídeo (tipo entrevista de emprego - tanto pra o cuidador quanto para o tutor)
 - ![image](https://user-images.githubusercontent.com/130490299/232852852-0a61b6e9-c024-4ceb-b3f0-14190f751a43.png) = Quando chegar no último, ali no menos, a pessoa vai passar por uma reciclagem, tipo fazer um curso pra se redimir das péssimas avaliações 
-- Textura pra fundo branco das telas
+- Textura pra fundo branco das telas ✔
 - Hospedagem = Lista de Cuidadores
 - Quantidade/Nível (É uma avaliação da empresa, que a empresa faz em cima dos feedbacks que recebe sobre o cuidador) de tempo que o cuidador está no aplicativo
 - ! Cadastramento Tutor = Web e Android -> Libera/habilita o APP depois do cadastro ser aprovado
