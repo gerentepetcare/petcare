@@ -64,3 +64,8 @@ a.abas, a.user {
     height: 5.124vw;
     margin-right: 1.830vw;
 }
+
+/*effects*/
+a.abas:hover {
+    color: #0185FF;
+}
