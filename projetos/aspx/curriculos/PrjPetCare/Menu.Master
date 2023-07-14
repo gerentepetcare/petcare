@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="PrjPetCare.Menu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="Style.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div id="menu">
+            <asp:Image ID="logo" runat="server" ImageUrl="~/images/logo.png"/>
+            <div id="abas">
+                <p class="abas">
+                    <a class="abas" href="Curriculos.aspx">CURRICULOS</a>
+                </p>
+                <p class="abas">
+                    <a class="abas" href="Rendimentos.aspx">RENDIMENTOS</a>
+                </p>
+                <p class="abas">
+                    <a class="abas" href="Pendentes.aspx">PENDENTES</a>
+                </p>
+                <p class="abas">
+                    <a class="abas" href="Agenda.aspx">AGENDA</a>
+                </p>
+            </div>
+            <asp:Image ID="bll" runat="server" ImageUrl="~/images/bll.png"/>
+            <asp:Image ID="pess" runat="server" ImageUrl="~/images/user.png"/>
+        </div>
+    </form>
+</body>
+</html>

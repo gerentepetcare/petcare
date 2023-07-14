@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Menu.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="PrjPetCare.WebForm1" %>
