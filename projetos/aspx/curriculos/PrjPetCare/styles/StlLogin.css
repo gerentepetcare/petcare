@@ -42,7 +42,7 @@ body {
 
 /*componentes*/
 #Logo{
-    height: 251px;
+    height: 292px;
     margin-right: 25px;
 }
 
@@ -58,12 +58,23 @@ body {
     color: #0185FF
 }
 
-.Left {
-    text-align: left;
-}
-
 #LblEsqSenha {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     text-align: left;
+}
+
+.BtnEntrar {
+    background-color: #FFCC01;
+    Border-Color: #FFCC01;
+    font-family: 'Jua', AcmeFont;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/*effects*/
+.BtnEntrar:hover{
+    background-color: #0185FF;
+    Border-Color: #0185FF;
 }
