@@ -1,0 +1,71 @@
+﻿/* ========== BIBLIOTECA ========== */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+
+/* ========== PROJETO ========== */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* ========== MASTER PAGE ========== */
+
+/*containers*/
+#menu {
+    width: 100vw;
+    height: 5.857vw;
+    background: #FFCC01;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+#abas {
+    height: 5.124vw;
+    text-align: center;
+    margin-left: 1.830vw;
+    margin-right: 1.830vw;
+}
+
+#user {
+    height: 5.124vw;
+    padding: 0.366vw;
+}
+
+/*componentes*/
+#logo {
+    height: 5.124vw;
+    margin-left: 1.830vw;
+}
+
+p.abas, p.user {
+    display: inline-block;
+    padding-left: 2.928vw;
+    padding-right: 2.928vw;
+}
+
+a.abas, a.user {
+    text-decoration: none;
+    color: white;
+    font-family: Jua, AcmeFont;
+    font-size: 2.416vw;
+}
+
+#bll {
+    height: 5.124vw;
+    margin-right: 0.732vw;
+}
+
+#pess {
+    height: 5.124vw;
+    margin-right: 1.830vw;
+}
+
+/*effects*/
+a.abas:hover {
+    color: #0185FF;
+}

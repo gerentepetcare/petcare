@@ -1,0 +1,56 @@
+﻿/* ========== BIBLIOTECA ========== */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+
+/* ========== PROJETO ========== */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* ========== LOGIN ========== */
+/*containers*/
+#tela, #login {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tela {
+    width: 100vw;
+    height: 100vh;
+}
+
+#login {
+    width: auto;
+    height: auto;
+    background-color: #FFCC01;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+#user {
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    margin-left: 25px;
+}
+
+/*componentes*/
+#logo{
+    height: 250px;
+}
+
+#LblUser, #LblSenha {
+    font-size: 40px;
+    color: #FFCC01;
+}
+
+#TxtUser, #TxtSenha {
+    font-size: 30px;
+    color: #FFCC01;
+}
