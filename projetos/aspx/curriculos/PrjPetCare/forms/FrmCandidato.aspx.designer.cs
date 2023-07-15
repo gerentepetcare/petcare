@@ -7,119 +7,83 @@
 // </gerado automaticamente>
 //------------------------------------------------------------------------------
 
-namespace PrjPetCare
+namespace PrjPetCare.forms
 {
 
 
-    public partial class Menu
+    public partial class FrmCandidato
     {
 
         /// <summary>
-        /// Controle head.
+        /// Controle ImgCandidato.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Image ImgCandidato;
 
         /// <summary>
-        /// Controle MstMenu.
+        /// Controle BtnAceitar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm MstMenu;
+        protected global::System.Web.UI.WebControls.Button BtnAceitar;
 
         /// <summary>
-        /// Controle ScriptManager1.
+        /// Controle BtnRejeitar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::System.Web.UI.WebControls.Button BtnRejeitar;
 
         /// <summary>
-        /// Controle ImgLogo.
+        /// Controle LblNome.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImgLogo;
+        protected global::System.Web.UI.WebControls.Label LblNome;
 
         /// <summary>
-        /// Controle LblCurriculos.
+        /// Controle LblData.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblCurriculos;
+        protected global::System.Web.UI.WebControls.Label LblData;
 
         /// <summary>
-        /// Controle LblRendimentos.
+        /// Controle LblCPF.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblRendimentos;
+        protected global::System.Web.UI.WebControls.Label LblCPF;
 
         /// <summary>
-        /// Controle LblPendentes.
+        /// Controle LblCelular.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblPendentes;
+        protected global::System.Web.UI.WebControls.Label LblCelular;
 
         /// <summary>
-        /// Controle LblAgenda.
+        /// Controle LblEmail.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblAgenda;
-
-        /// <summary>
-        /// Controle ImgBll.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImgBll;
-
-        /// <summary>
-        /// Controle ImgUser.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImgUser;
-
-        /// <summary>
-        /// Controle UpdatePanel1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
-
-        /// <summary>
-        /// Controle Corpo_Principal.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Corpo_Principal;
+        protected global::System.Web.UI.WebControls.Label LblEmail;
     }
 }

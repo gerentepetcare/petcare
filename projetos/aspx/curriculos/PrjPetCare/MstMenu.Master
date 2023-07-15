@@ -23,6 +23,13 @@
             <asp:Image ID="ImgBll" runat="server" ImageUrl="~/images/Bll.png"/>
             <asp:Image ID="ImgUser" runat="server" ImageUrl="~/images/User.png"/>
         </div>
+        <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Always" runat="server">
+            <ContentTemplate>
+                <div id="DivConteudo">
+                    <asp:ContentPlaceHolder ID="Corpo_Principal" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
     </form>
 </body>
 </html>

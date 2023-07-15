@@ -33,6 +33,11 @@ body {
     margin-right: 1.830vw;
 }
 
+#DivConteudo {
+    margin: 50px 30px 50px 30px;
+    display: inline-flex;
+}
+
 /*componentes*/
 #ImgLogo {
     height: 5.124vw;
@@ -62,4 +67,77 @@ body {
 /*effects*/
 #LblAgenda:hover, #LblPendentes:hover, #LblRendimentos:hover, #LblCurriculos:hover {
     color: #0185FF;
+}
+
+
+
+/* ========== FRMCANDIDATO ========== */
+
+/*containers*/
+#DivIdem {
+    width: 320px;
+    height: auto;
+    background-color: #C2DAEF;
+    padding: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+#DivDados {
+    width: 860px;
+    height: 350px;
+    background-color: #C2DAEF;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.DivDados {
+    border: 3px solid #0185FF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*componentes*/
+.ImgCandidato {
+    width: 320px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.BtnAceitar, .BtnRejeitar {
+    font-family: 'Jua', AcmeFont;
+    font-size: 25px;
+    color: #ffffff;
+    width: 145px;
+    border-radius: 20px;
+}
+
+.BtnAceitar {
+    background-color: #6DAD56;
+    Border-Color: #6DAD56;
+    margin-right: 12px;
+}
+
+.BtnRejeitar {
+    background-color: #C25555;
+    Border-Color: #C25555;
+    margin-left: 12px;
+}
+
+.LblDados, .LblCelular {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0185FF;
+}
+
+.LblCelular {
+    margin-right: 272px;
+}
+
+/*effects*/
+.BtnAceitar:hover, .BtnRejeitar:hover {
+    color: #FFCC01;
+    Border-Color: #0185FF;
+    background-color: #0185FF;
 }

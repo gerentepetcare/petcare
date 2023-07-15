@@ -67,9 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="forms\FrmCandidato.aspx" />
     <Content Include="forms\FrmCurriculos.aspx" />
     <Content Include="forms\FrmLogin.aspx" />
     <Content Include="images\Bll.png" />
+    <Content Include="images\Candidato.png" />
     <Content Include="images\Logo.png" />
     <Content Include="images\User.png" />
     <Content Include="styles\StlLogin.css" />
@@ -78,6 +80,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="forms\FrmCandidato.aspx.cs">
+      <DependentUpon>FrmCandidato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\FrmCandidato.aspx.designer.cs">
+      <DependentUpon>FrmCandidato.aspx</DependentUpon>
+    </Compile>
     <Compile Include="forms\FrmCurriculos.aspx.cs">
       <DependentUpon>FrmCurriculos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
