@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MstMenu.Master.cs" Inherits="PrjPetCare.Menu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="~/styles/StlPrincipal.css"/>
+</head>
+<body>
+    <form id="MstMenu" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div id="DivMenu">
+            <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/images/Logo.png"/>
+            <div id="DivAbas">
+                <asp:Label ID="LblCurriculos" runat="server" Text="CURRICULOS"></asp:Label>
+                <asp:Label ID="LblRendimentos" runat="server" Text="RENDIMENTOS"></asp:Label>
+                <asp:Label ID="LblPendentes" runat="server" Text="PENDENTES"></asp:Label>
+                <asp:Label ID="LblAgenda" runat="server" Text="AGENDA"></asp:Label>
+            </div>
+            <asp:Image ID="ImgBll" runat="server" ImageUrl="~/images/Bll.png"/>
+            <asp:Image ID="ImgUser" runat="server" ImageUrl="~/images/User.png"/>
+        </div>
+    </form>
+</body>
+</html>

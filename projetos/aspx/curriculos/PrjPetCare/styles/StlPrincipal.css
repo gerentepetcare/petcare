@@ -14,58 +14,52 @@ body {
 /* ========== MASTER PAGE ========== */
 
 /*containers*/
-#menu {
-    width: 100vw;
-    height: 5.857vw;
-    background: #FFCC01;
+#DivMenu, #DivAbas {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    float: left;
 }
 
-#abas {
+#DivMenu {
+    width: 100vw;
+    height: 5.857vw;
+    background: #FFCC01;
+}
+
+#DivAbas {
     height: 5.124vw;
     text-align: center;
     margin-left: 1.830vw;
     margin-right: 1.830vw;
 }
 
-#user {
-    height: 5.124vw;
-    padding: 0.366vw;
-}
-
 /*componentes*/
-#logo {
+#ImgLogo {
     height: 5.124vw;
     margin-left: 1.830vw;
 }
 
-p.abas, p.user {
+#LblAgenda, #LblPendentes, #LblRendimentos, #LblCurriculos {
+    text-decoration: none;
+    color: white;
+    font-family: Jua, AcmeFont;
+    font-size: 2.416vw;
     display: inline-block;
     padding-left: 2.928vw;
     padding-right: 2.928vw;
 }
 
-a.abas, a.user {
-    text-decoration: none;
-    color: white;
-    font-family: Jua, AcmeFont;
-    font-size: 2.416vw;
-}
-
-#bll {
+#ImgBll {
     height: 5.124vw;
     margin-right: 0.732vw;
 }
 
-#pess {
+#ImgUser {
     height: 5.124vw;
     margin-right: 1.830vw;
 }
 
 /*effects*/
-a.abas:hover {
+#LblAgenda:hover, #LblPendentes:hover, #LblRendimentos:hover, #LblCurriculos:hover {
     color: #0185FF;
 }
