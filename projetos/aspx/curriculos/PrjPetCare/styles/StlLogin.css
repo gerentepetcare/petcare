@@ -1,5 +1,6 @@
 ﻿/* ========== BIBLIOTECA ========== */
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
 
@@ -12,45 +13,57 @@ body {
 
 
 /* ========== LOGIN ========== */
+
 /*containers*/
-#tela, #login {
+#Tela {
+    width: 100vw;
+    height: 100vh;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
-#tela {
-    width: 100vw;
-    height: 100vh;
-}
-
-#login {
+#Login {
     width: auto;
     height: auto;
     background-color: #FFCC01;
+    border-radius: 20px;
     padding: 25px;
-    margin-right: 25px;
+    display: inline-flex;
 }
 
-#user {
+#Entrar {
     width: auto;
     height: auto;
     background-color: white;
+    border-radius: 20px;
     padding: 25px;
-    margin-left: 25px;
 }
 
 /*componentes*/
-#logo{
-    height: 250px;
+#Logo{
+    height: 251px;
+    margin-right: 25px;
 }
 
 #LblUser, #LblSenha {
     font-size: 40px;
+    font-family: 'Inter', sans-serif;
     color: #FFCC01;
 }
 
 #TxtUser, #TxtSenha {
     font-size: 30px;
-    color: #FFCC01;
+    border-color: #FFCC01;
+    color: #0185FF
+}
+
+.Left {
+    text-align: left;
+}
+
+#LblEsqSenha {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
 }

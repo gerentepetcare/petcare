@@ -6,18 +6,19 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="~/styles/Login.css" />
+    <link rel="stylesheet" type="text/css" href="~/styles/StlLogin.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="tela">
-            <div id="login">
-                <asp:Image ID="logo" runat="server" ImageUrl="~/images/logo.png"/>
-                <div id="user">
+        <div id="Tela">
+            <div id="Login">
+                <asp:Image ID="Logo" runat="server" ImageUrl="~/images/logo.png"/>
+                <div id="Entrar">
                     <asp:Label ID="LblUser" runat="server" Text="Usuário:"></asp:Label> <br />
-                    <asp:TextBox ID="TxtUser" runat="server"></asp:TextBox><br />
-                    <asp:Label ID="LblSenha" runat="server" Text="Senha:"></asp:Label><br />
-                    <asp:TextBox ID="TxtSenha" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TxtUser" runat="server"></asp:TextBox> <br />
+                    <asp:Label ID="LblSenha" runat="server" Text="Senha:"></asp:Label> <br />
+                    <asp:TextBox ID="TxtSenha" runat="server"></asp:TextBox><br />
+                    <asp:Label ID="LblEsqSenha" runat="server" Text="Esqueci minha senha"></asp:Label>
                 </div>
             </div>
         </div>

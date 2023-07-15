@@ -72,8 +72,8 @@
     <Content Include="images\bll.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\user.png" />
-    <Content Include="styles\Login.css" />
-    <Content Include="styles\Principal.css" />
+    <Content Include="styles\StlLogin.css" />
+    <Content Include="styles\StlPrincipal.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>

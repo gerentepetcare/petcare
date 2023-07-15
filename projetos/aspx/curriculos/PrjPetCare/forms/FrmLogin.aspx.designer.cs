@@ -24,13 +24,13 @@ namespace PrjPetCare.forms
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle logo.
+        /// Controle Logo.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image logo;
+        protected global::System.Web.UI.WebControls.Image Logo;
 
         /// <summary>
         /// Controle LblUser.
@@ -67,5 +67,14 @@ namespace PrjPetCare.forms
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtSenha;
+
+        /// <summary>
+        /// Controle LblEsqSenha.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEsqSenha;
     }
 }
