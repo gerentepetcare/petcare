@@ -36,13 +36,14 @@ namespace PrjPetCare.forms
                 else
                 {
                     showPopup("ERRO", "Informações Incorretas");
+                    TxtUser.Text = "";
                 }
             }
             else if (DdlTipo.SelectedItem.Text == "RH")
             {
                 string user = TxtUser.Text;
                 string senha = TxtSenha.Text;
-                dt = ClsCon.executarSQL("exec usp_Login_ADM '" + user + "','" + senha + "'");
+                dt = ClsCon.executarSQL("exec usp_Login_RH '" + user + "','" + senha + "'");
 
                 if (dt.Rows.Count > 0)
                 {
@@ -52,11 +53,13 @@ namespace PrjPetCare.forms
                 else
                 {
                     showPopup("ERRO", "Informações Incorretas");
+                    TxtUser.Text = "";
                 }
             }
             else
             {
                 showPopup("ERRO", "Informações Incorretas");
+                TxtUser.Text = "";
             }
         }
 
