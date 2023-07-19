@@ -14,12 +14,17 @@
             <div id="Login">
                 <asp:Image ID="Logo" runat="server" ImageUrl="~/images/logo.png"/>
                 <div id="Entrar">
+                    <asp:Label ID="LblTipoUser" runat="server" Text="Entrar como:"></asp:Label>
+                    <asp:DropDownList ID="DdlTipo" runat="server">
+                        <asp:ListItem Selected="True">Administrador</asp:ListItem>
+                        <asp:ListItem>RH</asp:ListItem>
+                    </asp:DropDownList> <br />
                     <asp:Label ID="LblUser" runat="server" Text="Usuário:"></asp:Label> <br />
                     <asp:TextBox ID="TxtUser" runat="server"></asp:TextBox> <br />
                     <asp:Label ID="LblSenha" runat="server" Text="Senha:"></asp:Label> <br />
                     <asp:TextBox ID="TxtSenha" runat="server"></asp:TextBox><br />
                     <a id="LblEsqSenha" href="FrmSenha.aspx">Esqueci minha senha</a><br />
-                    <asp:Button ID="BtnEntrar" runat="server" Text="Entrar" CssClass="BtnEntrar"/>
+                    <asp:Button ID="BtnEntrar" runat="server" Text="Entrar" CssClass="BtnEntrar" OnClick="BtnEntrar_Click"/>
                 </div>
             </div>
         </div>

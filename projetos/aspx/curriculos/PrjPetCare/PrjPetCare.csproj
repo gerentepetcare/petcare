@@ -79,9 +79,9 @@
     <Content Include="styles\StlLogin.css" />
     <Content Include="styles\StlPrincipal.css" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="class\ClasseConexao.cs" />
     <Compile Include="forms\FrmCandidato.aspx.cs">
       <DependentUpon>FrmCandidato.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,13 +118,6 @@
       <DependentUpon>MstMenu.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MstMenu.Master" />

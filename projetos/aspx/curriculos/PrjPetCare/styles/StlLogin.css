@@ -47,7 +47,15 @@ body {
     margin-right: 25px;
 }
 
-#LblUser, #LblSenha, #LblRedefinir {
+#DdlTipo {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    border-color: #FFCC01;
+    background-color: white;
+}
+
+#LblUser, #LblSenha, #LblRedefinir, #LblTipoUser {
     font-size: 40px;
     font-family: 'Inter', sans-serif;
     color: #FFCC01;

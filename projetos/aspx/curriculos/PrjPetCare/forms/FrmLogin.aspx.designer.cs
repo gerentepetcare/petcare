@@ -33,6 +33,24 @@ namespace PrjPetCare.forms
         protected global::System.Web.UI.WebControls.Image Logo;
 
         /// <summary>
+        /// Controle LblTipoUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblTipoUser;
+
+        /// <summary>
+        /// Controle DdlTipo.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DdlTipo;
+
+        /// <summary>
         /// Controle LblUser.
         /// </summary>
         /// <remarks>
