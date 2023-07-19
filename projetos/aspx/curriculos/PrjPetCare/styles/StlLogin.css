@@ -8,6 +8,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-image: url(../images/Background.png)
 }
 
 
@@ -46,19 +47,21 @@ body {
     margin-right: 25px;
 }
 
-#LblUser, #LblSenha {
+#LblUser, #LblSenha, #LblRedefinir {
     font-size: 40px;
     font-family: 'Inter', sans-serif;
     color: #FFCC01;
 }
 
-#TxtUser, #TxtSenha {
+#TxtUser, #TxtSenha, #TxtRedefinir {
     font-size: 30px;
     border-color: #FFCC01;
     color: #0185FF
 }
 
 #LblEsqSenha {
+    text-decoration:none;
+    color: black;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     text-align: left;
@@ -77,4 +80,8 @@ body {
 .BtnEntrar:hover{
     background-color: #0185FF;
     Border-Color: #0185FF;
+}
+
+#LblEsqSenha:hover {
+    color: #0185FF;
 }

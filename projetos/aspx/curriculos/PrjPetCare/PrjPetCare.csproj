@@ -70,6 +70,8 @@
     <Content Include="forms\FrmCandidato.aspx" />
     <Content Include="forms\FrmCurriculos.aspx" />
     <Content Include="forms\FrmLogin.aspx" />
+    <Content Include="forms\FrmSenha.aspx" />
+    <Content Include="images\Background.png" />
     <Content Include="images\Bll.png" />
     <Content Include="images\Candidato.png" />
     <Content Include="images\Logo.png" />
@@ -100,6 +102,13 @@
     </Compile>
     <Compile Include="forms\FrmLogin.aspx.designer.cs">
       <DependentUpon>FrmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FrmSenha.aspx.cs">
+      <DependentUpon>FrmSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forms\FrmSenha.aspx.designer.cs">
+      <DependentUpon>FrmSenha.aspx</DependentUpon>
     </Compile>
     <Compile Include="MstMenu.Master.cs">
       <DependentUpon>MstMenu.Master</DependentUpon>

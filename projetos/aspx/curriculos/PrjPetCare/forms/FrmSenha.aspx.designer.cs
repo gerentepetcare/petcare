@@ -11,7 +11,7 @@ namespace PrjPetCare.forms
 {
 
 
-    public partial class FrmLogin
+    public partial class FrmSenha
     {
 
         /// <summary>
@@ -33,48 +33,30 @@ namespace PrjPetCare.forms
         protected global::System.Web.UI.WebControls.Image Logo;
 
         /// <summary>
-        /// Controle LblUser.
+        /// Controle LblRedefinir.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblUser;
+        protected global::System.Web.UI.WebControls.Label LblRedefinir;
 
         /// <summary>
-        /// Controle TxtUser.
+        /// Controle TxtRedefinir.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtUser;
+        protected global::System.Web.UI.WebControls.TextBox TxtRedefinir;
 
         /// <summary>
-        /// Controle LblSenha.
+        /// Controle BtnRedefinir.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblSenha;
-
-        /// <summary>
-        /// Controle TxtSenha.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtSenha;
-
-        /// <summary>
-        /// Controle BtnEntrar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEntrar;
+        protected global::System.Web.UI.WebControls.Button BtnRedefinir;
     }
 }

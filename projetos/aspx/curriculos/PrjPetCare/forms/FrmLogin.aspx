@@ -18,7 +18,7 @@
                     <asp:TextBox ID="TxtUser" runat="server"></asp:TextBox> <br />
                     <asp:Label ID="LblSenha" runat="server" Text="Senha:"></asp:Label> <br />
                     <asp:TextBox ID="TxtSenha" runat="server"></asp:TextBox><br />
-                    <asp:Label ID="LblEsqSenha" runat="server" Text="Esqueci minha senha"></asp:Label><br />
+                    <a id="LblEsqSenha" href="FrmSenha.aspx">Esqueci minha senha</a><br />
                     <asp:Button ID="BtnEntrar" runat="server" Text="Entrar" CssClass="BtnEntrar"/>
                 </div>
             </div>
