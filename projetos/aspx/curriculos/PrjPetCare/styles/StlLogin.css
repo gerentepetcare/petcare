@@ -1,10 +1,10 @@
-﻿/* ========== BIBLIOTECA ========== */
+﻿/* ==================== BIBLIOTECA ==================== */
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
 
-/* ========== PROJETO ========== */
+/* ==================== PROJETO ==================== */
 body {
     margin: 0px;
     padding: 0px;
@@ -13,7 +13,7 @@ body {
 
 
 
-/* ========== LOGIN ========== */
+/* ==================== LOGIN ==================== */
 
 /*containers*/
 #Tela {
@@ -43,7 +43,7 @@ body {
 
 /*componentes*/
 #Logo{
-    height: 292px;
+    height: 323px;
     margin-right: 25px;
 }
 
@@ -56,15 +56,19 @@ body {
 }
 
 #LblUser, #LblSenha, #LblRedefinir, #LblTipoUser {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Inter', sans-serif;
     color: #FFCC01;
 }
 
 #TxtUser, #TxtSenha, #TxtRedefinir {
-    font-size: 30px;
+    width: 100%;
+    font-size: 20px;
     border-color: #FFCC01;
-    color: #0185FF
+}
+
+#TxtRedefinir{
+    width: 357px;
 }
 
 #LblEsqSenha {
@@ -82,6 +86,8 @@ body {
     font-size: 20px;
     color: #ffffff;
     margin-top: 10px;
+    padding: 6px 12px;
+    border-radius:4px;
 }
 
 /*effects*/
@@ -92,4 +98,40 @@ body {
 
 #LblEsqSenha:hover {
     color: #0185FF;
+}
+
+/* ==================== MODAL ==================== */
+.t-modal .modal-content {
+    border-bottom: 3px solid #FFCC01;
+    border-radius: 20px;
+}
+
+.t-modal .modal-header {
+    background-color: #FFCC01;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.t-modal .modal-title {
+    font-family: 'Jua', AcmeFont;
+    font-weight: bold;
+    font-size: 20px;
+    color: white
+}
+
+.t-modal .modal-body {
+    padding: 15px;
+}
+
+.t-modal .modal-footer {
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.t-modal .btn-danger {
+    background-color: #FFCC01;
+    Border-Color: #FFCC01;
+    font-family: 'Jua', AcmeFont;
+    font-size: 20px;
+    color: #ffffff;
 }

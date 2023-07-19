@@ -35,7 +35,7 @@ namespace PrjPetCare.forms
                 }
                 else
                 {
-
+                    showPopup("ERRO", "Informações Incorretas");
                 }
             }
             else if (DdlTipo.SelectedItem.Text == "RH")
@@ -51,9 +51,18 @@ namespace PrjPetCare.forms
                 }
                 else
                 {
-
+                    showPopup("ERRO", "Informações Incorretas");
                 }
             }
+            else
+            {
+                showPopup("ERRO", "Informações Incorretas");
+            }
+        }
+
+        private void showPopup(string title, string body)
+        {
+            ClientScript.RegisterStartupScript(this.GetType(), "Popup", "ShowPopup('" + title + "', '" + body + "');", true);
         }
     }
 }

@@ -22,9 +22,41 @@
                     <asp:Label ID="LblUser" runat="server" Text="Usuário:"></asp:Label> <br />
                     <asp:TextBox ID="TxtUser" runat="server"></asp:TextBox> <br />
                     <asp:Label ID="LblSenha" runat="server" Text="Senha:"></asp:Label> <br />
-                    <asp:TextBox ID="TxtSenha" runat="server"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtSenha" runat="server" TextMode="Password"></asp:TextBox><br />
                     <a id="LblEsqSenha" href="FrmSenha.aspx">Esqueci minha senha</a><br />
                     <asp:Button ID="BtnEntrar" runat="server" Text="Entrar" CssClass="BtnEntrar" OnClick="BtnEntrar_Click"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts - Bootstrap - Modal Popup-->
+        <script type="text/javascript" src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js'></script>
+        <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js'></script>
+        <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css' media="screen" />
+        <script type="text/javascript">
+            function ShowPopup(title, body) {
+                $("#MyPopup .modal-title").html(title);
+                $("#MyPopup .modal-body").html(body);
+                $("#MyPopup").modal("show");
+            }
+        </script>
+
+        <!-- Bootstrap - Modal Popup-->
+        <div id="MyPopup" class="modal t-modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;</button>
+                        <h4 class="modal-title">
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn t-modal btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
                 </div>
             </div>
         </div>
